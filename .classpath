@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
 		<attributes>
-			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Selenium/Selenium client and webdriver language bindings/selenium-java-4.10.0/selenium-api-4.10.0.jar"/>
@@ -87,5 +92,10 @@
 	<classpathentry kind="lib" path="C:/Selenium/Selenium client and webdriver language bindings/selenium-java-4.10.0/lib/opentelemetry-semconv-1.26.0-alpha.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Selenium client and webdriver language bindings/selenium-java-4.10.0/lib/reactive-streams-1.0.4.jar"/>
 	<classpathentry kind="lib" path="C:/Selenium/Selenium client and webdriver language bindings/selenium-java-4.10.0/lib/slf4j-api-2.0.7.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
